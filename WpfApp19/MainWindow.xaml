@@ -9,8 +9,8 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         
         <tb:TaskbarIcon IconSource="Resources/Icon1.ico" ToolTipText="Task Tray">
@@ -21,7 +21,7 @@
             </tb:TaskbarIcon.ContextMenu>
         </tb:TaskbarIcon>
         
-        <Button Grid.Row="0"/>
+        <Button Grid.Row="0" Content="Button"/>
         <Border Grid.Row="1" BorderThickness="1" BorderBrush="Black"/>
     </Grid>
 </Window>
